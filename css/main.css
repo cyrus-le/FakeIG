@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.line{
+    padding-bottom: 20px;
+}
+.container {
+    margin: auto;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+}
+.container {
+    margin: auto;
+    padding-top: 3rem;
+}
+.main-content {
+    width: 40%;
+    height: 70%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 40px 50px;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.header img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    position: relative;
+    left: 80px;
+}
+
+
+.input input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.input input:focus {
+    border: 1px solid #dbdbdb;
+    border: none;
+}
+
+.sub-content {
+    width: 40%;
+    height: 40%;
+    margin: 10px auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/*Login FB*/
+.LoginFB a {
+    margin: 50px auto;
+    left: 50px;
+    color: #385185;
+    padding: 30px 83px;
+    text-align: center;
+}
+
+.LoginFB a:hover {
+    text-decoration: none;
+    color: #385185;
+}
+.forget {
+    padding: 0 40px;
+    text-align: center;
+}
+.forget a {
+    font-size: 12px;
+    color: #385185;
+    font-weight: 0.5px;
+    text-align: center;
+}
+.forget a:hover{
+    text-decoration: none;
+    color: #385185;
+}
+
+.sub-content {
+    font-size: 14px;
+    text-align: center;
+    font-family: "Overpass Mono", monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+    width: 40%;
+    height: 60%;
+}
+.btn {
+    padding: 2rem;
+    border-radius: 3px;
+    width: 100%;
+    margin: 20px 0;
+}
+.sub-content .SignUp {
+    margin: 0 auto;
+    left: 50px;
+}
+.sub-content .SignUp a {
+    color: #0095f6;
+    text-decoration: none;
+}
